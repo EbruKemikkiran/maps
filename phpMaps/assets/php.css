@@ -1,0 +1,113 @@
+html
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%; 
+}
+
+.card {
+  margin: 0 auto;
+  width: 100%;
+  align-items:center;
+  padding:20px;
+  border-radius:10px;
+  margin:10px;
+}
+
+.card h1 {
+  color: #19eb2a;
+  font-weight: 800px !important;
+}
+
+.card h3 {
+  color: #19eb2a;
+  font-weight: 600px !important;
+}
+
+.card h4 {
+  color: #19eb2a;
+  font-weight: 900px !important;
+}
+
+.a {
+  color: #19eb2a;
+  font-size: 20px;
+  font-weight: 300px;
+}
+
+p {
+  color: #19eb2a;
+  font-size: 20px;
+  font-weight: 300px;
+}
+
+
+.localinfo
+{
+  color: #19eb2a;
+  font-size: 50px;
+  font-weight: 600px;
+
+}
+
+/* TABLE */
+#locationTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: #19eb2a;
+  font-size: 50px;
+  font-weight: 600px;
+}
+
+#locationTable th, #locationTable td {
+  border: 1px solid #19eb2a;
+  padding: 8px;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 600px;
+}
+
+#locationTable th {
+  background-color: #f2f2f2;
+}
+
+/* MAP */
+
+.map-card {
+  height:  auto;
+  width: 100%;
+  align-items:center;
+  padding:20px;
+  border-radius:10px;
+  margin:10px;
+}
+
+#map {
+  height: 500px;
+  padding: 5px;
+  margin: 5px;
+  padding-bottom: 5px;
+}
+    
+.custom-map-control-button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 0 0.5em;
+  font: 400 18px Roboto, Arial, sans-serif;
+  overflow: hidden;
+  height: 40px;
+  cursor: pointer;
+}
+
+.custom-map-control-button:hover {
+  background: rgb(235, 235, 235);
+}
